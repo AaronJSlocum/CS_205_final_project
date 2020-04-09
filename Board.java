@@ -7,6 +7,11 @@ public class Board {
     private int num_hotels;
     private int bank_money;
     private int[] player_position;
-    
+
+
+    //Contructor
+    public Board(){
+        
+    }
 
 }
