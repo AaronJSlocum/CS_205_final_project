@@ -4,7 +4,7 @@ public class sellHouses{
       if(t.tile_position < 10 && t.num_house > 0){
          int house_val = 25;
          p.cash_val = p.cash_val+house_val;
-         t.num_house++;
+         t.num_house--;
       }
       if(t.tile_position > 10 && t.tile_position < 20 && t.num_house > 0){
          int house_val = 50;
