@@ -21,4 +21,10 @@ public class Jail{
         player.cash_val -= 50;
         free = true;
     }
+    public void getOutofJailFree(Player player){
+        if(player.get_out_of_jail_free){
+            player.get_out_of_jail_free = false;
+            free = true;
+        }
+    }
 }

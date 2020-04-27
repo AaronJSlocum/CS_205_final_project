@@ -10,6 +10,7 @@ public class Player {
    private Tile[] properties;
    private boolean jail;
    private boolean bankruptcy;
+   private boolean get_out_of_jail_free;
    
    public Player(){
    
