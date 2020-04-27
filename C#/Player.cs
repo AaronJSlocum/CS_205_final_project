@@ -12,45 +12,59 @@ public class Player : MonoBehaviour
     [SerializeField] private int cashVal = 1500;
     private List<Tile> properties;
     private bool jail = false;
+    private int turnsInJail = 0;
     private bool bankruptcy = false;
-    // Start is called before the first frame update
-    void Start()
+
+    static UIManager uIManager;
+    private void Awake()
     {
-        
+        uIManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public string getName()
+    public string GetName()
     {
         return name;
     }
 
-    public int getID()
+    public int GetID()
     {
         return id;
     }
 
-    public int getPostion()
+    public int GetPostion()
     {
         return tilePosition;
     }
-    public void addMoney(int amount)
+
+    public int GetMoney()
+    {
+        return cashVal;
+    }
+    public void AddMoney(int amount)
     {
         cashVal += amount;
+        uIManager.updatePlayerMoney(id, cashVal);
     }
-    public void removeMoney(int amount)
+    public void RemoveMoney(int amount)
     {
         cashVal -= amount;
+        uIManager.updatePlayerMoney(id, cashVal);
         //isbankrupt
     }
 
-    internal void setPostion(int pos)
+    internal void SetPostion(int pos)
     {
         tilePosition = pos;
+    }
+
+    public void Pay(Player player, int amount)
+    {
+        RemoveMoney(amount);
+        player.AddMoney(amount);       
+    }
+
+    public void addProperty(Property property)
+    {
+       //properties.Add(property);
     }
 }

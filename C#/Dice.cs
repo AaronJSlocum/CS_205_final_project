@@ -32,6 +32,11 @@ public class Dice : MonoBehaviour
 
         return die1 + die2;
     }
+
+    public bool IsDoubles()
+    {
+        return die1 == die2;
+    }
     // Start is called before the first frame update
     void Start()
     {

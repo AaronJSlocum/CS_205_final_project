@@ -1,18 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Tax : Tile
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] int taxtAmount;
+  
+    public override void Event()
     {
-        
+        uIManager.EnablePayTaxUI(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    internal int GetTax()
     {
-        
+        return taxtAmount;
     }
 }

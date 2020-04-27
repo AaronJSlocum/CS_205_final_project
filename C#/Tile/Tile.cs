@@ -2,54 +2,59 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour
+public abstract class Tile : MonoBehaviour
 {
     private int tile_position;
     private string tile_name;
 
-    private Transform p1Pos;
-    private Transform p2Pos;
-    private Transform p3Pos;
-    private Transform p4Pos;
+    [SerializeField] protected Transform p1Pos;
+    [SerializeField] protected Transform p2Pos;
+    [SerializeField] protected Transform p3Pos;
+    [SerializeField] protected Transform p4Pos;
 
+    protected static UIManager uIManager;
+    protected static GameManager gameManager;
     private void Awake()
     {
+        uIManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
+        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
         p1Pos = transform.GetChild(0).transform.GetChild(0);
         p2Pos = transform.GetChild(0).transform.GetChild(1);
         p3Pos = transform.GetChild(0).transform.GetChild(2);
         p4Pos = transform.GetChild(0).transform.GetChild(3);
     }
-    public Transform PlayerPosOnTile(int player)
+    public Vector3 PlayerPosOnTile(int player)
     {
         switch (player)
         {
             case 1:
-                return p1Pos;
+                return p1Pos.position;
             case 2:
-                return p2Pos;
+                return p2Pos.position;
             case 3:
-                return p3Pos;
+                return p3Pos.position;
+            case 4:
+                return p4Pos.position;
             default:
-                return p4Pos;
+                return transform.position;
         }
     }
+    //buy / auction
 
-    public void Event()
-    {
-        //buy / auction
+    //pay
 
-        //pay
+    //own
 
-        //own
+    //draw card
 
-        //draw card
+    //pay tax
 
-        //pay tax
+    //jail visting
 
-        //jail visting
+    //inJail
 
-        //inJail
+    //
+    public abstract void Event();
 
-        //
-    }
 }

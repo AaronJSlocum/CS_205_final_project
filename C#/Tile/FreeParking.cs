@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class FreeParking : Tile
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Event()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        uIManager.EnableAccountEndTurnUI(true);
     }
 }
