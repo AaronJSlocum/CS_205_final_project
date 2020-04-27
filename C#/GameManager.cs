@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    Dice dice;
+    [SerializeField]Dice dice;
     Board board;
     [SerializeField] Player p1;
     [SerializeField] Player p2;
@@ -48,6 +48,13 @@ public class GameManager : MonoBehaviour
 
     public void Roll()
     {
+        int playerPos = GetCurrentPlayer().GetPostion();
+        //inJail
+        if (playerPos == 10 && GetCurrentPlayer().IsJailed())
+        {
+            uIManager.EnableInJailUI(true);
+            return;
+        }
         roll = dice.roll();
         Debug.Log("Player" + GetCurrentPlayer().GetID() + " Rolled a " + roll + ", Dice " + dice.getDie1() + ", " +dice.getDie2());
         if (dice.IsDoubles())
@@ -56,7 +63,7 @@ public class GameManager : MonoBehaviour
             doublesRolled++;
             if(doublesRolled >= 3)
             {
-                GoToJail();
+                GoToJailUI();
                 return;
             }
             //Extra Turn
@@ -142,6 +149,11 @@ public class GameManager : MonoBehaviour
         MovePlayerLocation(10);
     }
 
+    private void GoToJailUI()
+    {
+        uIManager.EnableGoToJailUI(true);
+    }
+
     public void EndTurn()
     {
         if (lastRolledDoubles && doublesRolled < 3)
@@ -163,6 +175,7 @@ public class GameManager : MonoBehaviour
             currentPlayer = 1;
         }
         uIManager.ColorUpdate();
+
     }
 
    public void PayRent()
@@ -195,4 +208,22 @@ public class GameManager : MonoBehaviour
 
    }
 
+    public Dice GetDice()
+    {
+        return dice;
+    }
+
+    public void RollForFreedom()
+    {
+        dice.roll();
+        GetCurrentPlayer().RollForFreedom(dice.IsDoubles());
+    }
+    public void PayFine()
+    {
+        GetCurrentPlayer().PayFine();
+    }
+    public void GetOutofJailFree()
+    {
+        GetCurrentPlayer().GetOutofJailFree();
+    }
 }

@@ -69,7 +69,7 @@ public class Property : Tile
     {
         this.owner = owner;
         this.owner.RemoveMoney(GetCost());
-        this.owner.addProperty(this);
+        this.owner.AddProperty(this);
         //check for monopoly
 
     }

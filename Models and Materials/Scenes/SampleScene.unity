@@ -132,6 +132,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &220076791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &254123455 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4671454725525825772, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
@@ -156,6 +168,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143da147aea4e1641ab3d4339705d673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &289174025 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &331235353 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3338642446118523237, guid: 0890d5703e839fc4cb70bb6eeb7eff56,
@@ -178,6 +202,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &605544384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &618135364 stripped
@@ -317,6 +353,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 143da147aea4e1641ab3d4339705d673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &794013073 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &819204523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225
@@ -621,6 +681,191 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnableInJailUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: EnableAccountEndTurnUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1156565047}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PayFine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2783795705012881768, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnableInJailUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: EnableAccountEndTurnUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1156565047}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RollForFreedom
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133351313832349390, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnableInJailUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1294217092}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: EnableAccountEndTurnUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1156565047}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RollForFreedom
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420253044614398853, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808886804110370294, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_text
+      value: Pass
+      objectReference: {fileID: 0}
     - target: {fileID: 4632752145166738679, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -781,6 +1026,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1156565047}
+    - target: {fileID: 8836464321141973096, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
+        type: 3}
+      propertyPath: m_text
+      value: Account
+      objectReference: {fileID: 0}
     - target: {fileID: 8955807195188479122, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -887,6 +1137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1aa1e0aff39c09428eb9594ff80faf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dice: {fileID: 0}
   p1: {fileID: 331235353}
   p2: {fileID: 790072301}
   p3: {fileID: 1552839435}
@@ -1025,6 +1276,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d13c110074fb0ae4594d75527f9c57bd, type: 3}
+--- !u!114 &1285896210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1294217092 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 580286274, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
@@ -1035,6 +1298,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8fa0e7e444b2fd438d5923f7d02366f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1330405105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1333121261 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1479575086 stripped
@@ -1061,6 +1348,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1502058897 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1541996662 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1977648233, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
@@ -1085,9 +1384,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143da147aea4e1641ab3d4339705d673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1565744392 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1572051866 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5399378654179064159, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1591401714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
     type: 3}
   m_PrefabInstance: {fileID: 7461322886811391189}
   m_PrefabAsset: {fileID: 0}
@@ -1109,6 +1432,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1741984184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1814474474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1817106441 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 972383402342211986, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
@@ -1121,6 +1468,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1878303123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1915711461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1928796725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1936174064 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3882729760107799572, guid: 394c7f7e6a0bd5d4a93dab85c3706493,
@@ -1131,6 +1514,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2121573609 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+    type: 3}
+  m_PrefabInstance: {fileID: 7461322886811391189}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e765844afd1c6f489890fbfd2776943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2987890440767264539
@@ -1362,6 +1757,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 794013073}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1502058897}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1565744392}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 852541099009857898, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 1965227984670448055, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1397,6 +1852,181 @@ PrefabInstance:
       propertyPath: monopolyTiles.Array.data[2]
       value: 
       objectReference: {fileID: 727889707}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 605544384}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1814474474}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 819204523}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 950
+      objectReference: {fileID: 0}
+    - target: {fileID: 2645856669773451451, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1285896210}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1915711461}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884974027602029589, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 220076791}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 289174025}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1741984184}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 390
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010367117173067234, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 3127489510250699289, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1412,6 +2042,241 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1285896210}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1915711461}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690395007341177347, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 794013073}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1502058897}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1565744392}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239170857986853633, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1330405105}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1333121261}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1878303123}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286618852928167419, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1591401714}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1928796725}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 2121573609}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557239638916735040, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 4671454725525825772, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
         type: 3}
       propertyPath: monopolyTiles.Array.size
@@ -1432,6 +2297,126 @@ PrefabInstance:
       propertyPath: monopolyTiles.Array.data[2]
       value: 
       objectReference: {fileID: 1572051866}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1591401714}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1928796725}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 2121573609}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723173118277595217, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 220076791}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 289174025}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1741984184}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038279763314898050, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 160
+      objectReference: {fileID: 0}
     - target: {fileID: 5129306994113085286, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1462,6 +2447,126 @@ PrefabInstance:
       propertyPath: monopolyTiles.Array.data[2]
       value: 
       objectReference: {fileID: 727889707}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1591401714}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1928796725}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 2121573609}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 1150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584875306057119579, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 605544384}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1814474474}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 819204523}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625173141959242439, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7243338289920847911, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1531,6 +2636,306 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 220076791}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 289174025}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1741984184}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 390
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702617471493437735, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1330405105}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1333121261}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1878303123}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 625
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974888512969269427, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 605544384}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1814474474}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 819204523}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 950
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528459702393556636, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 794013073}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1502058897}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1565744392}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 850
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 1025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736385770140064470, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: houseCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1330405105}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1333121261}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: monopolyTiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1878303123}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent1House
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent2House
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent3House
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rent4House
+      value: 625
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: rentHotel
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767651404110400404, guid: 13cdeaad0edeadc41bfbc41a2db0e791,
+        type: 3}
+      propertyPath: morgage
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cdeaad0edeadc41bfbc41a2db0e791, type: 3}
